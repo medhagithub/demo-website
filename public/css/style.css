@@ -1,0 +1,39 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif; /* Example of an aesthetic font style */
+    background-color: #000; /* Black background */
+    color: #FFF; /* White text */
+}
+
+input, button {
+    background-color: #333; /* Dark grey for input and button backgrounds */
+    border: none;
+    padding: 10px;
+    margin: 5px 0; /* Space out elements */
+    color: #FFF; /* White text */
+}
+
+input {
+    border-radius: 5px; /* Slightly rounded corners for input fields */
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px; /* Slightly rounded corners for buttons */
+    font-weight: bold;
+}
+
+/* Specific styles for errors or specific elements can be added here */
+.error {
+    color: #FF6347; /* Lighter red for error messages */
+}
+
+/* You can also add hover effects for buttons */
+button:hover {
+    background-color: #555; /* Slightly lighter grey */
+}
+
+/* And focus effects for inputs */
+input:focus {
+    border-color: #666; /* Highlight input on focus */
+}
